@@ -1,0 +1,48 @@
+.pay-cont {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pay-cont h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1cm;
+  }
+  
+  .pay-cont input[type="text"],
+  .pay-cont input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .pay-cont input[type="text"]:focus,
+  .pay-cont input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .pay-cont button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(41, 112, 100);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5cm;
+  }
+  
+  .pay-cont button:hover {
+    background-color: rgb(18, 67, 59);
+  }
+  

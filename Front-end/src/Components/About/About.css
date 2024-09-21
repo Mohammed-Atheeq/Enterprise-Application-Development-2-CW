@@ -1,0 +1,177 @@
+.banner5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header5 {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(163, 214, 206);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(41, 112, 100);
+  font-size: 18px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a.A {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #78c3c3;
+}
+
+.profile2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  margin-right: 2cm;
+}
+
+.profile2 span {
+  color: rgb(41, 112, 100);
+  margin-top: 1.5cm;
+}
+
+.profile2_img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: -42.5px;
+  margin-bottom: 1cm;
+  margin-top: 0.6cm;
+  border: 2px solid #3ca695;
+}
+
+.profile2-menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background-color: #eafffc;
+  border: 2px solid rgb(41, 112, 100);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 180px;
+  margin-right: -1.5cm;
+  margin-top: 0.1cm;
+}
+
+.profile2-menu ul {
+  list-style: none;
+  display: grid;
+  padding: 0;
+  margin: 0;
+}
+
+.profile2-menu ul li {
+  margin-bottom: 5px;
+}
+
+.profile2-menu ul li a {
+  color: rgb(41, 112, 100);
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 0.3cm;
+}
+
+.profile2-menu ul li :hover {
+  font-size: 21px;
+  color: #101010;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20cm;
+}
+
+.left-section {
+  margin-left: 2cm;
+  position: relative; 
+}
+
+.left-image {
+  width: 850px;
+  border-radius: 0px;
+  margin-top: -3.7cm;
+  margin-left: 0cm;
+  opacity: 70%;
+}
+
+.left-image :hover {
+  opacity: 70%;
+}
+
+.Explore {
+  position: absolute;
+  font-family: "Lalezar", cursive;
+  bottom: 50px;
+  margin-left: 9cm;
+  font-size: 32px;
+  letter-spacing: 0.2cm;
+  color: rgb(41, 112, 100); 
+  background-color: none; 
+  padding: 10px 20px; 
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.Explore :hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.right-section {
+  text-align: center;
+}
+
+.right-section h2 {
+  font-size: 46px;
+  font-family: "Lalezar", cursive;
+  color: rgb(41, 112, 100);
+  margin-bottom: 20px;
+  margin-top: -5cm;
+  letter-spacing: 0.2cm;
+}
+
+.right-section p {
+  font-size: 25px;
+  color: rgb(41, 112, 100);
+  line-height: 1.5;
+  margin-bottom: 30px;
+  margin-left: 1cm;
+  margin-top: 2cm;
+  font-weight: 600;
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.banner02 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header02 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    margin-top: -35.5cm;
+    margin-left: 0cm;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(163, 214, 206);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+}
+
+nav .logo {
+    width: 70px;
+    margin-left: 2%;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-left: -2cm;
+    margin-top: -0.1cm;
+  }
+  
+  .login-button {
+    background-color: rgb(21, 74, 74);
+    color: rgb(163, 214, 206);
+    border: rgb(163, 214, 206);
+    padding: 12px;
+    border-radius: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: -2cm;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(37, 78, 90);
+    filter: brightness(120%);
+    transform: scale(1.03);
+    font-size: 105%;
+  }
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.navbar {
+    display: flex;
+    margin-right: -21cm;
+    margin-left: 1cm;
+}
+
+.navbar a {
+    color: rgb(41, 112, 100);
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 0.3cm;
+}
+
+.navbar a.L {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: rgb(37, 78, 90);
+    text-decoration: underline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.ltitle h1 {
+    color: #254E5A;
+    font-size: 48px;
+    font-family: 'Lalezar', cursive;
+    text-align: center;
+    margin-top: 3cm;
+    letter-spacing: 0.2cm;
+    font-weight: 550;
+    margin-left: 20cm;
+    display: flex;
+}
+
+.location1-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 94%;
+    margin-top: 0cm;
+    gap: 10px;
+    margin-left: 1.5cm;
+}
+
+.col1-content img {
+    margin-bottom: 50px;
+    height: 280px;
+    border-radius: 27px;
+    width: 220px;
+    margin-top: 25px;
+    box-shadow: 0 60px 0 0 #A3D6CE;
+}
+
+.col1-content h5 {
+    margin-left: 0.6cm;
+    margin-top: -1.25cm;
+    font-size: 20px;
+    font-family: 'Lexend Deva', sans-serif;
+    color: #254E5A;
+}
+
+.col1-content p {
+    margin-left: 0.6cm;
+    margin-top: -0.1cm;
+    font-size: 25px;
+    font-family: 'Lalezar', cursive;
+    letter-spacing: 0.1cm;
+    color: #254E5A;
+}
+
+.col1-content:hover {
+    filter: brightness(120%);
+    transform: scale(1.03);
+}

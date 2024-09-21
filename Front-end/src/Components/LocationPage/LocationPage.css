@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+.banner2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header1 {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  margin-top: -35.4cm;
+  margin-left: 0cm;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(163, 214, 206);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 15%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 1cm;
+  border-bottom-right-radius: 1cm;
+}
+
+nav .logo {
+  width: 70px;
+  margin-left: 2%;
+}
+
+.profile1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  margin-right: 2cm;
+}
+
+.profile1 span {
+  color: rgb(41, 112, 100);
+  margin-top: 1.5cm;
+}
+
+.profile1_img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: -42.5px;
+  margin-bottom: 1cm;
+  margin-top: 0.6cm;
+  border: 2px solid #3ca695;
+}
+
+.profile1-menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background-color: #eafffc;
+  border: 2px solid rgb(41, 112, 100);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 180px;
+  margin-right: -1.5cm;
+  margin-top: 0.1cm;
+}
+
+.profile1-menu ul {
+  list-style: none;
+  display: grid;
+  padding: 0;
+  margin: 0;
+}
+
+.profile1-menu ul li {
+  margin-bottom: 5px;
+}
+
+.profile1-menu ul li a {
+  color: rgb(41, 112, 100);
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 0.3cm;
+}
+
+.profile1-menu ul li :hover {
+  font-size: 21px;
+  color: #101010;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.navbar {
+  display: flex;
+  margin-right: -21cm;
+  margin-left: 1cm;
+}
+
+.navbar a {
+  color: rgb(41, 112, 100);
+  font-size: 18px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 0.3cm;
+}
+
+.navbar a.L {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: rgb(37, 78, 90);
+  text-decoration: underline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.ltitle h1 {
+  color: #254e5a;
+  font-size: 48px;
+  font-family: "Lalezar", cursive;
+  text-align: center;
+  margin-top: 3cm;
+  letter-spacing: 0.2cm;
+  font-weight: 550;
+  margin-left: 20cm;
+  display: flex;
+}
+
+.location1-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 94%;
+  margin-top: 0cm;
+  gap: 10px;
+  margin-left: 1.5cm;
+}
+
+.col1-content img {
+  margin-bottom: 50px;
+  height: 280px;
+  border-radius: 27px;
+  width: 220px;
+  margin-top: 25px;
+  box-shadow: 0 60px 0 0 #a3d6ce;
+}
+
+.col1-content h5 {
+  margin-left: 0.6cm;
+  margin-top: -1.25cm;
+  font-size: 20px;
+  font-family: "Lexend Deva", sans-serif;
+  color: #254e5a;
+}
+
+.col1-content p {
+  margin-left: 0.6cm;
+  margin-top: -0.1cm;
+  font-size: 25px;
+  font-family: "Lalezar", cursive;
+  letter-spacing: 0.1cm;
+  color: #254e5a;
+}
+
+.col1-content:hover {
+  filter: brightness(120%);
+  transform: scale(1.03);
+}

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+
+.title1 img {
+  width: 1000px;
+  margin-top: 1.5cm;
+  margin-left: 1cm;
+  border-radius: 2cm;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 5px solid #5db9ac;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.title1-rectangle-box {
+  width: 1000px;
+  height: 120px;
+  background-color: #a3d6ce;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  border-radius: 1cm;
+}
+
+.title1 h2 {
+  margin-top: -17.5cm;
+  margin-left: 30cm;
+  font-family: "Lalezar", cursive;
+  font-weight: 100;
+  letter-spacing: 0.1cm;
+  color: #254E5A;
+  font-size: 48px;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.title1 h2:hover {
+  color: #36c7b4;
+  font-size: 50px;
+}
+
+.title1 h3 {
+  margin-left: 30cm;
+  margin-top: 0.5cm;
+  color: #254E5A;
+  font-size: 30px;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.title1 h3:hover {
+  color: #36c7b4;
+  font-size: 32px;
+}
+
+.title1 h4 {
+  margin-left: 30cm;
+  color: #254E5A;
+  font-size: 26px;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.title1 h4:hover {
+  color: #36c7b4;
+  font-size: 28px;
+}
+
+.title1 p {
+  margin-top: 2cm;
+  max-width: 500px;
+  font-size: 24px;
+  margin-left: 30cm;
+  font-style: italic;
+  line-height: 1.1cm;
+  color: #536872;
+}
+
+/* Image Section */
+.images1 img {
+  margin-top: -2cm;
+  margin-left: 2.2cm;
+  width: 160px;
+  border-radius: 0.7cm;
+  border: 2px solid #a3d6ce;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transition: filter 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.images1 img:hover {
+  filter: brightness(120%);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Additional Details Section */
+.b {
+  display: flex;
+  align-items: center;
+}
+
+.b h2 {
+  margin-top: 2cm;
+  margin-left: 2.8cm;
+  color: #254E5A;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.b h2:hover {
+  color: #36c7b4;
+  font-size: 28px;
+}
+
+.details {
+  display: flex;
+  align-content: center;
+  margin-left: 2.5cm;
+}
+
+.pack {
+  margin-right: 190px;
+  margin-top: 2cm;
+  transition: transform 0.3s;
+}
+
+.pack:hover {
+  transform: scale(1.05);
+}
+
+
+.pack h1 {
+  color: #254E5A;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0.5cm;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.pack h1:hover {
+  color: #36c7b4;
+  font-size: 1.6em;
+}
+
+.pack h3 {
+  margin: 5px 0;
+  font-size: 1em;
+  margin-top: 0.1cm;
+  color: #254E5A;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.pack h3:hover {
+  color: #36c7b4;
+  font-size: 1.1em;
+}
+
+/* Book Button */
+.book-button11 {
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 3cm;
+  margin-bottom: 3cm;
+  margin-left: 9.5cm;
+  font-size: 35px;
+  padding: 10px 30px;
+  background-color: rgb(41, 112, 100);
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s, color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.book-button11:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(12, 52, 45);;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+  padding: 10px 30px;
+}
+

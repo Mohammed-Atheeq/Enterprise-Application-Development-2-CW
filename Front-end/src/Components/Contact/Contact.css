@@ -1,0 +1,222 @@
+.banner55 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header55 {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  margin-top: 2.02cm;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(163, 214, 206);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(41, 112, 100);
+  font-size: 18px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a.C {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.profile22 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  margin-right: 2cm;
+}
+
+.profile22 span {
+  color: rgb(41, 112, 100);
+  margin-top: 1.5cm;
+}
+
+.profile22_img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: -42.5px;
+  margin-bottom: 1cm;
+  margin-top: 0.6cm;
+  border: 2px solid #3ca695;
+}
+
+.profile22-menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background-color: #eafffc;
+  border: 2px solid rgb(41, 112, 100);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 180px;
+  margin-right: -1.5cm;
+  margin-top: 0.1cm;
+}
+
+.profile22-menu ul {
+  list-style: none;
+  display: grid;
+  padding: 0;
+  margin: 0;
+}
+
+.profile22-menu ul li {
+  margin-bottom: 5px;
+}
+
+.profile22-menu ul li a {
+  color: rgb(41, 112, 100);
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 0.3cm;
+}
+
+.profile22-menu ul li :hover {
+  font-size: 21px;
+  color: #101010;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3.2cm;
+  margin-left: -1cm;
+  background-color: #eafffc;
+  height: 1050px;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  margin-top: 6cm;
+}
+
+.contact-form {
+  width: 700px;
+  height: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 50px;
+}
+
+.contact-form h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-form p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  background-color: rgb(41, 112, 100);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(18, 77, 67);
+}
+
+.contact-image {
+  width: 400px;
+  margin-left: 5cm;
+  margin-top: -4cm;
+  margin-bottom: 2cm;
+}
+
+.contact-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.link-wrapper1 {
+  margin-top: 1cm;
+  text-align: center;
+}
+
+.button11 {
+  background-color: rgb(41, 112, 100);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  display: block; 
+  margin-bottom: -4cm;
+  margin-top: 4.5cm;
+  margin-left: 0cm;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.button11:hover {
+  background-color: rgb(12, 52, 45);
+  filter: brightness(120%);
+  transform: scale(1.03);
+}

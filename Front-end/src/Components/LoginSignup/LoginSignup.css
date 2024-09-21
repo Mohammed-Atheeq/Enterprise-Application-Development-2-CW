@@ -1,0 +1,98 @@
+.login-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .form-buttons :hover {
+    background-color: rgb(37, 78, 90);
+    transform: scale(1.03);
+
+  }
+  
+  .form-buttons button {
+    background-color: rgb(163, 214, 206);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-buttons button :hover {
+    background-color: rgb(37, 78, 90);
+    transform: scale(1.03);
+  }
+
+  .form-buttons button.active {
+    background-color: rgb(163, 214, 206);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: rgb(163, 214, 206);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .but {
+    margin-left: 2cm;
+    color: #ff9e9e;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .but:hover {
+    color: #ff0000;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  form button:hover {
+    background-color: rgb(37, 78, 90);
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-container img {
+    width: 100px;
+    height: auto; 
+  }
