@@ -1,11 +1,11 @@
-# Tour Booking Application
+# Tour Management Application
 
-This project is a tour booking application developed for the Enterprise Application Development 2 module. It follows a Microservice architecture using Java Spring Boot for the backend and React for the frontend. The application provides RESTful APIs to automate various tasks related to tour bookings, allowing seamless integration with external applications.
+This project is a tour management application developed for the Enterprise Application Development 2 module. It follows a Microservice architecture using Java Spring Boot for the backend and React for the frontend. The application provides RESTful APIs to automate various tasks related to tour management, allowing seamless integration with external applications.
 
 ## Features
 
 ### Backend (Java, Spring Boot)
-- **Microservice Architecture**: The backend is designed using microservices to handle different modules of the application efficiently (Admin Management, Booking Management, User Mmanagement).
+- **Microservice Architecture**: The backend is designed to use microservices to handle different application modules efficiently (Admin Management, Booking Management, User Management).
 - **RESTful APIs**: Provides GET, POST, PUT, and DELETE APIs for managing tours, bookings, customers, and payments.
 - **Data Management**: Includes endpoints for handling CRUD operations for tours, bookings, and customer information.
 - **API Testing**: Tested using POSTMAN to ensure proper functioning of all APIs.
@@ -14,7 +14,7 @@ This project is a tour booking application developed for the Enterprise Applicat
 - **Responsive Design**: User-friendly and responsive interface for easy navigation.
 - **Tour Listings**: Display available tours with options.
 - **Booking Management**: Allows users to book tours and view their booking history.
-- **Real-Time Updates**: Fetches data from backend APIs in real time.
+- **Real-Time Updates**: Fetches data from backend APIs in real-time.
 
 ## Technologies Used
 
